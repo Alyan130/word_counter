@@ -8,4 +8,4 @@ const input=await inquirer.prompt([
     }
 ]);
 const counter=input.sentence.trim().split(" ");
-console.log(`Words is your sentence are : ${counter.length}`);
+console.log(`Words in your sentence are : ${counter.length}`);
